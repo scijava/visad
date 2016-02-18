@@ -32,14 +32,14 @@ import java.awt.event.KeyEvent;
 import java.rmi.RemoteException;
 import java.util.Enumeration;
 
-import javax.media.j3d.Behavior;
-import javax.media.j3d.BoundingSphere;
-import javax.media.j3d.Bounds;
-import javax.media.j3d.WakeupCondition;
-import javax.media.j3d.WakeupCriterion;
-import javax.media.j3d.WakeupOnAWTEvent;
-import javax.media.j3d.WakeupOr;
-import javax.vecmath.Point3d;
+import org.scijava.java3d.Behavior;
+import org.scijava.java3d.BoundingSphere;
+import org.scijava.java3d.Bounds;
+import org.scijava.java3d.WakeupCondition;
+import org.scijava.java3d.WakeupCriterion;
+import org.scijava.java3d.WakeupOnAWTEvent;
+import org.scijava.java3d.WakeupOr;
+import org.scijava.vecmath.Point3d;
 
 import visad.DisplayEvent;
 import visad.DisplayImpl;

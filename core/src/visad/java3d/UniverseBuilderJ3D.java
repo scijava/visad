@@ -11,8 +11,8 @@ package visad.java3d;
 
 import java.lang.reflect.Method;
 
-import javax.media.j3d.*;
-import javax.vecmath.*;
+import org.scijava.java3d.*;
+import org.scijava.vecmath.*;
 
 public class UniverseBuilderJ3D extends Object {
 

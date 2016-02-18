@@ -37,7 +37,7 @@ import visad.VisADException;
 public interface ScreenAnnotation
 {
   /**
-   *  Make the Object into a {@link javax.media.j3d.Shape3D}.
+   *  Make the Object into a {@link org.scijava.java3d.Shape3D}.
    *
    *  @param display  the VisAD display for this Annotation.
    *

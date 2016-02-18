@@ -28,22 +28,22 @@ package visad.java3d;
 
 import java.lang.reflect.Constructor;
 
-import javax.media.j3d.AmbientLight;
-import javax.media.j3d.Appearance;
-import javax.media.j3d.BoundingSphere;
-import javax.media.j3d.BranchGroup;
-import javax.media.j3d.ColoringAttributes;
-import javax.media.j3d.DirectionalLight;
-import javax.media.j3d.GeometryArray;
-import javax.media.j3d.Light;
-import javax.media.j3d.LineArray;
-import javax.media.j3d.LineAttributes;
-import javax.media.j3d.Shape3D;
-import javax.media.j3d.TransformGroup;
-import javax.media.j3d.View;
-import javax.vecmath.Color3f;
-import javax.vecmath.Point3d;
-import javax.vecmath.Vector3f;
+import org.scijava.java3d.AmbientLight;
+import org.scijava.java3d.Appearance;
+import org.scijava.java3d.BoundingSphere;
+import org.scijava.java3d.BranchGroup;
+import org.scijava.java3d.ColoringAttributes;
+import org.scijava.java3d.DirectionalLight;
+import org.scijava.java3d.GeometryArray;
+import org.scijava.java3d.Light;
+import org.scijava.java3d.LineArray;
+import org.scijava.java3d.LineAttributes;
+import org.scijava.java3d.Shape3D;
+import org.scijava.java3d.TransformGroup;
+import org.scijava.java3d.View;
+import org.scijava.vecmath.Color3f;
+import org.scijava.vecmath.Point3d;
+import org.scijava.vecmath.Vector3f;
 
 import visad.VisADError;
 

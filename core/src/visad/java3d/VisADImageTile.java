@@ -2,21 +2,21 @@ package visad.java3d;
 import visad.*;
 import visad.data.CachedBufferedByteImage;
 
-import javax.media.j3d.ImageComponent2D;
-import javax.media.j3d.ImageComponent2D.Updater;
-import javax.media.j3d.Behavior;
-import javax.media.j3d.BranchGroup;
-import javax.media.j3d.Switch;
-import javax.media.j3d.BoundingSphere;
+import org.scijava.java3d.ImageComponent2D;
+import org.scijava.java3d.ImageComponent2D.Updater;
+import org.scijava.java3d.Behavior;
+import org.scijava.java3d.BranchGroup;
+import org.scijava.java3d.Switch;
+import org.scijava.java3d.BoundingSphere;
 
-import javax.vecmath.Point3d;
+import org.scijava.vecmath.Point3d;
 import java.awt.image.*;
 import java.awt.color.*;
 import java.util.Enumeration;
-import javax.media.j3d.WakeupCriterion;
-import javax.media.j3d.WakeupOnElapsedFrames;
-import javax.media.j3d.WakeupOnElapsedTime;
-import javax.media.j3d.WakeupOnBehaviorPost;
+import org.scijava.java3d.WakeupCriterion;
+import org.scijava.java3d.WakeupOnElapsedFrames;
+import org.scijava.java3d.WakeupOnElapsedTime;
+import org.scijava.java3d.WakeupOnBehaviorPost;
 
 
 public class VisADImageTile implements ImageComponent2D.Updater {

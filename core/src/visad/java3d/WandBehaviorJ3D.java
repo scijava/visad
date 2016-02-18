@@ -28,8 +28,8 @@ package visad.java3d;
 
 import visad.*;
 
-import javax.media.j3d.*;
-import javax.vecmath.*;
+import org.scijava.java3d.*;
+import org.scijava.vecmath.*;
 
 import java.util.*;
 

@@ -28,7 +28,7 @@ package visad.java3d;
 
 import visad.*;
 
-import javax.media.j3d.*;
+import org.scijava.java3d.*;
 
 import java.util.*;
 import java.rmi.*;

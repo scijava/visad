@@ -41,30 +41,30 @@ import java.awt.Image;
 import java.awt.image.ColorModel;
 import java.awt.image.PixelGrabber;
 
-import javax.media.j3d.Appearance;
-import javax.media.j3d.BranchGroup;
-import javax.media.j3d.Canvas3D;
-import javax.media.j3d.ColoringAttributes;
-import javax.media.j3d.Font3D;
-import javax.media.j3d.GeometryArray;
-import javax.media.j3d.LineArray;
-import javax.media.j3d.LineAttributes;
-import javax.media.j3d.PointArray;
-import javax.media.j3d.PointAttributes;
-import javax.media.j3d.PolygonAttributes;
-import javax.media.j3d.QuadArray;
-import javax.media.j3d.Shape3D;
-import javax.media.j3d.Text3D;
-import javax.media.j3d.Transform3D;
-import javax.media.j3d.TransformGroup;
-import javax.media.j3d.TransparencyAttributes;
-import javax.media.j3d.TriangleArray;
-import javax.media.j3d.View;
+import org.scijava.java3d.Appearance;
+import org.scijava.java3d.BranchGroup;
+import org.scijava.java3d.Canvas3D;
+import org.scijava.java3d.ColoringAttributes;
+import org.scijava.java3d.Font3D;
+import org.scijava.java3d.GeometryArray;
+import org.scijava.java3d.LineArray;
+import org.scijava.java3d.LineAttributes;
+import org.scijava.java3d.PointArray;
+import org.scijava.java3d.PointAttributes;
+import org.scijava.java3d.PolygonAttributes;
+import org.scijava.java3d.QuadArray;
+import org.scijava.java3d.Shape3D;
+import org.scijava.java3d.Text3D;
+import org.scijava.java3d.Transform3D;
+import org.scijava.java3d.TransformGroup;
+import org.scijava.java3d.TransparencyAttributes;
+import org.scijava.java3d.TriangleArray;
+import org.scijava.java3d.View;
 
-import javax.vecmath.Point2d;
-import javax.vecmath.Point3d;
-import javax.vecmath.Point3f;
-import javax.vecmath.Vector3d;
+import org.scijava.vecmath.Point2d;
+import org.scijava.vecmath.Point3d;
+import org.scijava.vecmath.Point3f;
+import org.scijava.vecmath.Vector3d;
 
 /**
  *  This is a collection of static methods to help with the construction

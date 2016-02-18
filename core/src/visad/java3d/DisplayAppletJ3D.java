@@ -30,7 +30,7 @@ import java.applet.Applet;
 import java.awt.*;
 import java.awt.BorderLayout;
 
-import javax.media.j3d.*;
+import org.scijava.java3d.*;
 
 public class DisplayAppletJ3D extends Applet {
 

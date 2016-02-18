@@ -28,9 +28,9 @@ package visad.java3d;
 
 import visad.*;
 
-import javax.media.j3d.*;
+import org.scijava.java3d.*;
 
-import javax.vecmath.*;
+import org.scijava.vecmath.*;
 
 import java.util.Vector;
 
@@ -1224,7 +1224,7 @@ public abstract class ShadowTypeJ3D extends ShadowType {
 
   /**
    * this is a work-around for the NullPointerException at
-   * javax.media.j3d.Shape3DRetained.setLive(Shape3DRetained.java:448)
+   * org.scijava.java3d.Shape3DRetained.setLive(Shape3DRetained.java:448)
    *
    * @param obj
    */

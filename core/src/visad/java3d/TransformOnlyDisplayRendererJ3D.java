@@ -30,7 +30,7 @@ import visad.*;
 
 import java.awt.image.BufferedImage;
 
-import javax.media.j3d.*;
+import org.scijava.java3d.*;
 
 /**
  * <CODE>TransformOnlyDisplayRendererJ3D</CODE> is the VisAD class for the

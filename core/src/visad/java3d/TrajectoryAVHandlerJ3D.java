@@ -27,7 +27,7 @@
 package visad.java3d;
 
 import java.util.ArrayList;
-import javax.media.j3d.Switch;
+import org.scijava.java3d.Switch;
 import visad.AVHandler;
 
 /**
