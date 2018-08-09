@@ -10,7 +10,7 @@
 	</parent>
 
 	<artifactId>visad</artifactId>
-	<version>2.0.0-scijava-1-SNAPSHOT</version>
+	<version>2.0.0-scijava-1</version>
 
 	<name>VisAD</name>
 	<description>A Java component library for interactive and collaborative visualization and analysis of numerical data.</description>
@@ -87,7 +87,7 @@
 	<scm>
 		<connection>scm:git:git://github.com/scijava/visad</connection>
 		<developerConnection>scm:git:git@github.com:scijava/visad</developerConnection>
-		<tag>HEAD</tag>
+		<tag>visad-2.0.0-scijava-1</tag>
 		<url>https://github.com/scijava/visad</url>
 	</scm>
 	<issueManagement>
