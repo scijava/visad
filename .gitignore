@@ -15,11 +15,13 @@ examples/build
 
 # Eclipse
 .classpath
+.factorypath
 .project
 .settings/
 
 # IntelliJ IDEA
 *.iml
+.idea/
 
 # OS Junk
 .DS_Store
